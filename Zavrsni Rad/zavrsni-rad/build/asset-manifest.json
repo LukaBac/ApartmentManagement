@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.25fde105.css",
+    "main.css": "/static/css/main.a3ebf4dc.css",
     "main.js": "/static/js/main.d639b6ea.js",
     "static/js/453.2a13d2e6.chunk.js": "/static/js/453.2a13d2e6.chunk.js",
     "static/media/Split.jpg": "/static/media/Split.697924bad27d0f8d4aad.jpg",
@@ -10,12 +10,12 @@
     "static/media/Rijeka.jpg": "/static/media/Rijeka.f50b93b8151e6733813b.jpg",
     "static/media/Zagreb.jpg": "/static/media/Zagreb.cb7b36b01f21e5532db8.jpg",
     "index.html": "/index.html",
-    "main.25fde105.css.map": "/static/css/main.25fde105.css.map",
+    "main.a3ebf4dc.css.map": "/static/css/main.a3ebf4dc.css.map",
     "main.d639b6ea.js.map": "/static/js/main.d639b6ea.js.map",
     "453.2a13d2e6.chunk.js.map": "/static/js/453.2a13d2e6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.25fde105.css",
+    "static/css/main.a3ebf4dc.css",
     "static/js/main.d639b6ea.js"
   ]
 }

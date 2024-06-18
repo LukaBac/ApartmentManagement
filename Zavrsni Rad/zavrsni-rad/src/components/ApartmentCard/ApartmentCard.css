@@ -59,6 +59,10 @@
     text-shadow: 2px 2px 1px black;
 }
 
+.ApartmentCardSecondary{
+    margin-bottom: 4rem;
+}
+
 .ApartmentCardSecondary .ImageDiv {
     width: 300px;
     height: 280px;
@@ -81,7 +85,7 @@
 .Cards2 {
     width: 85%;
     margin: 0 auto;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .Naslov {
@@ -197,13 +201,13 @@
         font-size: 16px;
     }
 
-    .CardContainer, .CardContainer2 {
+    .CardContainer {
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
     }
 
-    .ApartmentCardMainImage, .ApartmentCardSecondary .ImageDiv {
+    .ApartmentCardMainImage,  .ImageDiv {
         width: 80vw;
         height: auto;
     }
@@ -212,6 +216,21 @@
         width: 80vw;
         height: 300px;
         margin-bottom: 3rem;
+    }
+
+    
+}
+
+@media screen and (max-width: 650px){
+    .CardContainer2{
+        flex-direction: column;
+    }
+
+    .ApartmentCardSecondary{
+        width: 80%;
+    }
+    .ApartmentCardSecondary .ImageDiv{
+        width: 100%;
     }
 }
 
@@ -227,7 +246,7 @@
         font-size: 20px;
     } */
 
-    .Cards2 {
+    /* .Cards2 {
         width: 100%;
         margin-bottom: 100px;
     }
@@ -236,11 +255,11 @@
         flex-direction: column;
         width: 90%;
         align-items: center;
-    }
+    } */
 
-    .ApartmentCardSecondary .ImageDiv {
+    /* .ApartmentCardSecondary .ImageDiv {
         width: 100%;
-    }
+    } */
 
     .Naslov {
         font-size: 18px;
