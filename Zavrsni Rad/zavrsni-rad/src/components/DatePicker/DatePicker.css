@@ -1,0 +1,66 @@
+.date-picker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.month-year-browser {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.month-year-browser button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.month-year-browser span {
+  margin: 0 10px;
+  font-size: 1.2em;
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.day {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid #ddd;
+}
+
+.day.booked {
+  background-color: #f44336;
+  color: white;
+  pointer-events: none; /* Prevent clicking on booked dates */
+}
+
+.day.selected {
+  background-color: #4caf50;
+  color: white;
+}
+
+.day:hover:not(.booked) {
+  background-color: #e0e0e0;
+}
+
+.selected-dates {
+  text-align: center;
+}
+
+.date-picker{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}

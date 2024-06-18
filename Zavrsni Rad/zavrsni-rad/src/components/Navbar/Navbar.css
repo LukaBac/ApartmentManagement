@@ -1,0 +1,244 @@
+.Navbar {
+    width: 100vw;
+    height: 45vh;
+    background: linear-gradient(to bottom, #002c74, #003b95); 
+    color: white;
+}
+
+#NavTop {
+    padding: 2rem 0;
+    width: 65%;
+    margin: 0 auto;
+}
+
+#navTop h2 {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.NavLinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: 17%;
+}
+
+.NavLink {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px 20px;
+}
+
+.Selected {
+    border: 1px solid white;
+}
+
+.NavLink svg {
+    margin-right: 0.6rem;
+}
+
+.NavText {
+    margin-top: 50px;
+    margin-left: 17%;
+    width: 600px;
+}
+
+.NavText h2 {
+    font-size: 35px;
+    margin-bottom: 1rem;
+}
+
+.NavText p {
+    font-size: 20px;
+}
+
+.NavbarLinkComponent {
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+}
+
+.NavbarLinkComponent:hover {
+    background-color: white;
+    color: black;
+}
+
+.Filter {
+    width: 60%;
+    margin: 0 auto;
+    height: 60px;
+    background-color: rgb(255, 174, 0);
+    margin-top: 25px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Filter input {
+    height: 85%;
+    width: 44%;
+    padding: 0 1rem;
+}
+
+.Filter button {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: 85%;
+    width: 90px;
+    background-color: var(--highlightBlue);
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.Hide {
+    height: 18vh;
+}
+
+.Hide .Filter {
+    display: none;
+}
+
+.Hide .NavText {
+    display: none;
+}
+
+/** RESPONZIVNOST **/
+
+@media (max-width: 1575px) {
+    .NavText{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .NavLinks {
+        width: 60%;
+        margin-left: 10%;
+    }
+    
+    .NavText {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .Filter{
+        width: 80%;
+    }
+    
+    /* .Filter {
+        width: 80%;
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+    
+    .Filter input, .Filter button {
+        width: 100%;
+        margin: 5px 0;
+    }
+    
+    .Filter button {
+        width: 100%;
+    } */
+}
+
+@media (max-width: 768px) {
+    .NavLinks {
+        width: 80%;
+        margin-left: 5%;
+    }
+
+    .NavText h2 {
+        font-size: 28px;
+    }
+    
+    .NavText p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 600px) {
+    .Navbar {
+        height: 370px;
+        padding: 10px;
+    }
+
+    #NavTop {
+        width: 90%;
+        padding: 1rem 0;
+    }
+
+    .NavbarLinkComponent:hover {
+        background-color: transparent;
+        color: white;
+    }
+
+    .Selected{
+        border: none;
+        border-radius: 0;
+        border-bottom: 1px solid white;
+    }
+
+    .NavLinks {
+        flex-direction: column;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .NavLink {
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .NavText {
+        display: none;
+        margin-top: 20px;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .Hide{
+        height: 270px;
+    }
+
+    .NavText h2 {
+        font-size: 24px;
+    }
+
+    .NavText p {
+        font-size: 16px;
+    }
+
+    .Filter {
+        width: 80%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .Filter input, .Filter button {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .Filter input{
+        padding: 5px 3px;
+    }
+
+    .Filter button{
+        padding: 5px 0;
+    }
+    
+    .Filter button {
+        width: 100%;
+    }
+}

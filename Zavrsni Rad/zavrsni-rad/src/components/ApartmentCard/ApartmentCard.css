@@ -1,0 +1,277 @@
+/* Existing CSS */
+.ApartmentCard .Image {
+    width: 270px;
+    height: 220px;
+    background-position: center;
+    background-size: cover;
+}
+
+.ApartmentCard h3 {
+    margin: 0.6rem 0;
+}
+
+.ApartmentDescription {
+    margin: 0.5rem 0;
+    width: 250px;
+}
+
+.ApartmentPrices {
+    font-weight: 500;
+}
+
+.ApartmentCard button {
+    margin: 0.7rem 0;
+    width: 120px;
+    height: 40px;
+    font-size: 17px;
+    color: white;
+    background-color: rgb(64, 106, 161);
+    border: none;
+}
+
+.CardContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 87%;
+    margin: 0 auto;
+    margin-top: 6rem;
+    margin-bottom: 160px;
+}
+
+.ApartmentCardMainImage {
+    cursor: pointer;
+    width: 440px;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    font-size: 27px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.ApartmentCardMainImage h2, .ApartmentCardMainImage p {
+    text-shadow: 2px 2px 1px black;
+}
+
+.ApartmentCardSecondary .ImageDiv {
+    width: 300px;
+    height: 280px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0.5rem;
+}
+
+.ApartmentCardSecondary button {
+    background-color: #003b95;
+    color: white;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    border-radius: 3px;
+    padding: 10px 15px;
+}
+
+.Cards2 {
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+.Naslov {
+    font-size: 22px;
+    margin-bottom: 3rem;
+}
+
+.CardContainer2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.SaveDiv {
+    width: 100%;
+    height: 300px;
+    background-color: #003b95;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.SaveDiv h2 {
+    font-size: 40px;
+}
+
+.SaveDiv p {
+    font-weight: 500;
+    font-size: 19px;
+    margin-top: 2rem;
+}
+
+.SaveDiv input {
+    font-size: 17px;
+    padding: 17px 10px;
+    width: 400px;
+}
+
+.SaveDiv button {
+    background-color: #2c87db;
+    color: white;
+    border: none;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 5px 10px;
+    margin-left: 1rem;
+}
+
+/** RESPONSIVE **/
+@media (max-width: 1550px) {
+    .CardContainer {
+        width: 90%;
+    }
+    .ApartmentCardMainImage{
+        width: 350px;
+        height: 300px;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .CardContainer {
+        width: 95%;
+    }
+
+    .Cards2{
+        width: 95vw;
+    }
+
+    .ApartmentCardMainImage{
+        width: 300px;
+        height: 250px;
+    }
+
+
+    /* .CardContainer, .CardContainer2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ApartmentCardMainImage, .ApartmentCardSecondary .ImageDiv {
+        width: 80%;
+        height: auto;
+    }
+
+    .SaveDiv input {
+        width: 80%;
+    } */
+}
+
+@media (max-width: 950px) {
+    .ApartmentCardMainImage {
+        font-size: 24px;
+    }
+
+    .SaveDiv h2 {
+        font-size: 32px;
+    }
+
+    .SaveDiv p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .SaveDiv input {
+        font-size: 16px;
+    }
+
+    .SaveDiv button {
+        font-size: 16px;
+    }
+
+    .CardContainer, .CardContainer2 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .ApartmentCardMainImage, .ApartmentCardSecondary .ImageDiv {
+        width: 80vw;
+        height: auto;
+    }
+
+    .ApartmentCardMainImage{
+        width: 80vw;
+        height: 300px;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    /* .CardContainer {
+        width: 100%;
+        margin-top: 3rem;
+        margin-bottom: 80px;
+    }
+
+    .ApartmentCardMainImage {
+        width: 90%;
+        font-size: 20px;
+    } */
+
+    .Cards2 {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .CardContainer2 {
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+    }
+
+    .ApartmentCardSecondary .ImageDiv {
+        width: 100%;
+    }
+
+    .Naslov {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .SaveDiv {
+        height: auto;
+        padding: 20px;
+    }
+
+    .SaveDiv div{
+        flex-direction: column;
+        display: flex;
+    }
+
+    .SaveDiv h2 {
+        font-size: 28px;
+    }
+
+    .SaveDiv p {
+        font-size: 14px;
+    }
+
+    .SaveDiv input {
+        width: 100%;
+    }
+
+    .SaveDiv button {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,144 @@
+.ApartmentPage{
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.MainWrapper{
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.wrapper{
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.ApartmentFilter{
+    width: 26%;
+    height: 550px;
+    background-color: rgb(255, 174, 0);
+    margin: 1rem;
+    border-radius: 15px;
+}
+
+.ApartmentPageCards{
+    width: 74%;
+    margin: 1rem;
+    border: 2px solid gray;
+    border-radius: 15px;
+}
+
+.ApartmentPageCard .wrapper{
+    justify-content: flex-start;
+    width: 100%;
+    padding: 1rem;
+}
+
+.ApartmentPageCard{
+    margin-bottom: 1rem;
+}
+
+.ApartmentPageCard button{
+    font-size: 16px;
+    padding: 12px 19px;
+    background-color: #003b95;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/**KARTICE**/
+.ApartmentPageCard .ImageDiv{
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+}
+
+
+
+
+
+
+
+.ApartmentFilter{
+    padding: 25px;
+}
+
+.ApartmentFilter h3{
+    color: rgb(65, 53, 0);
+    margin-bottom: 1rem;
+}
+
+.ApartmentFilter input{
+    font-size: 16px;
+    padding: 15px 5px;
+    width: 100%;
+}
+
+.ApartmentFilter p{
+    margin-bottom: 0.4rem;
+}
+
+.ApartmentFilter button{
+    margin-top: 1.5rem;
+    background-color: #003b95;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    width: 90%;
+    margin-left: 5%;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width: 1200px){
+    .ApartmentPage .wrapper{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .MainWrapper{
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .ApartmentFilter{
+        width: 80%;
+    }
+
+    .ApartmentPageCards{
+        width: 95%;
+    }
+
+    .ApartmentPageCard{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .ApartmentPageCard h3{
+        font-size: 20px !important;
+    }
+    
+    .ApartmentPageCard p{
+        font-size: 15px !important;
+        width: 100px !important;
+    }
+}
