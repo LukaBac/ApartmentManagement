@@ -1,0 +1,64 @@
+.NavLeft{
+    position: fixed;
+    width: 60px;
+    height: 100vh;
+    background-color: var(--lighterBlue);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.NavTop{
+    position: fixed;
+    width: calc(100vw - 60px);
+    margin-left: 60px;
+    height: 70px;
+    background-color: var(--darkBlue);
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 4rem;
+}
+
+.LeftNavLinks{
+    margin-top: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 55%;
+}
+
+.NavIcon{
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+    color: #f0f2f5;
+}
+
+.NavLink:hover p{
+    display: block;
+}
+
+.NavLink{
+    cursor: pointer;
+    width: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.NavLink p{
+    display: none;
+    position: fixed;
+    margin-left: 60px;
+    background-color: white;
+    padding: 5px 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .NavTop{
+        justify-content: center;
+        padding-left: 60px;
+    }
+}

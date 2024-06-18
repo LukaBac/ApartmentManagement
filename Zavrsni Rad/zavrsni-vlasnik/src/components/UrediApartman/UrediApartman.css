@@ -1,0 +1,108 @@
+.UrediApartman{
+  padding-top: 70px;
+  padding-left: 60px;
+}
+
+.UrediApartmanMain {
+    margin: 0 0 0 12%;
+    margin-top: 70px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f2f5;
+  }
+  
+  body{
+    background-color: #f0f2f5;
+  }
+
+  .UrediApartman form{
+    width: 500px;
+    margin-left: 100px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .form-group input{
+    font-size: 15px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 50px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    height: 140px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+
+  .UrediApartmanImg{
+    width: 650px;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  @media screen and (max-width: 1000px) {
+      .UrediApartmanMain{
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 2rem;
+      }
+
+      .UrediApartman form{
+        margin-left: 1rem;
+      }
+  }
+
+  @media screen and (max-width: 700px) {
+    .UrediApartmanMain{
+      flex-direction: column;
+      width: 90%;
+    }
+
+    .UrediApartmanImg{
+      margin-bottom: 3rem;
+      height: 500px;
+      width: 100%;
+    }
+
+    .UrediApartman form{
+      margin-left: 1rem;
+      width: 100%;
+    }
+}
+  

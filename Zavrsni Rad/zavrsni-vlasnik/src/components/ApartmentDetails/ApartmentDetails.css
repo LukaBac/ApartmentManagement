@@ -1,0 +1,25 @@
+.ApartmentImage{
+    width: 700px;
+    height: 700px;
+    margin: 90px 0 0 100px;
+    background-position: center;
+    background-size: cover;
+}
+
+.ApartmentDetails{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.ApartmentText{
+    margin-left: 5rem;
+}
+
+#ApartmentCity{
+    margin-bottom: 200px;
+}
+
+#ApartmentDescription{
+    margin-bottom: 250px;
+}
