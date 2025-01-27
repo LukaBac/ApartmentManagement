@@ -1,7 +1,7 @@
-Skolski projekt - zavrsni rad
+School Project
 
-ReactJS web aplikacija za iznajmljivanje apartmana slično sustavu Booking.com
+ReactJS web application for apartment renting, similar to the Booking.com system
 
-Koristi Google Firebase i Firestore bazu podataka i ReactJS za frontend
+Uses Google Firestore database and NodeJS/JavaScript for backend and ReactJS for the frontend
 
-Sadrži dvije web stranice, od kojih jedna predstavlja administratorski panel za uređivanje baze podataka, a druga za simulaciju korisničkog iskustva korištenja sustava
+Contains two web pages, one representing an administrative panel for editing the database, and the other simulating the user experience of using the system
